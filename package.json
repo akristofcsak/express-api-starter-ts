@@ -16,7 +16,7 @@
     "build": "tsc",
     "lint": "eslint --fix src test",
     "test": "vitest run",
-    "test:coverage": "vitest run --coverage",
+    "test:coverage": "vitest run --coverage --reporter=default --reporter=junit --outputFile=junit.xml",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
