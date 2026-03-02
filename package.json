@@ -20,6 +20,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@vitest/coverage-v8": "^4.0.18",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "helmet": "^8.1.0",
